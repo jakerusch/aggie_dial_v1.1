@@ -1,0 +1,185 @@
+{
+    "author": "jacob.rusch@gmail.com",
+    "dependencies": {
+        "pebble-clay": "^1.0.3"
+    },
+    "keywords": [],
+    "name": "aggie-analog",
+    "pebble": {
+        "capabilities": [
+            "location",
+            "configurable"
+        ],
+        "displayName": "Aggie Analog",
+        "enableMultiJS": true,
+        "messageKeys": [
+            "KEY_INVERT_COLORS",
+            "KEY_INVERT_HAND_COLORS",
+            "KEY_TEMP",
+            "KEY_ICON",
+            "KEY_START_DATE_TIME",
+            "KEY_TEAM_STADIUM"
+        ],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/PARTLY_CLOUDY_NIGHT_WHITE_ICON.png",
+                    "name": "PARTLY_CLOUDY_NIGHT_WHITE_ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/WIND_WHITE_ICON.png",
+                    "name": "WIND_WHITE_ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/SNOW_WHITE_ICON.png",
+                    "name": "SNOW_WHITE_ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/SLEET_WHITE_ICON.png",
+                    "name": "SLEET_WHITE_ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/RAIN_WHITE_ICON.png",
+                    "name": "RAIN_WHITE_ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/FOG_WHITE_ICON.png",
+                    "name": "FOG_WHITE_ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/CLOUDY_WHITE_ICON.png",
+                    "name": "CLOUDY_WHITE_ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/CLEAR_SKY_NIGHT_WHITE_ICON.png",
+                    "name": "CLEAR_SKY_NIGHT_WHITE_ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/CLEAR_SKY_DAY_WHITE_ICON.png",
+                    "name": "CLEAR_SKY_DAY_WHITE_ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/PARTLY_CLOUDY_DAY_WHITE_ICON.png",
+                    "name": "PARTLY_CLOUDY_DAY_WHITE_ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/icon.png",
+                    "menuIcon": true,
+                    "name": "icon",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/WIND_BLACK_ICON.png",
+                    "name": "WIND_BLACK_ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/SNOW_BLACK_ICON.png",
+                    "name": "SNOW_BLACK_ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/SLEET_BLACK_ICON.png",
+                    "name": "SLEET_BLACK_ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/RAIN_BLACK_ICON.png",
+                    "name": "RAIN_BLACK_ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/PARTLY_CLOUDY_NIGHT_BLACK_ICON.png",
+                    "name": "PARTLY_CLOUDY_NIGHT_BLACK_ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/PARTLY_CLOUDY_DAY_BLACK_ICON.png",
+                    "name": "PARTLY_CLOUDY_DAY_BLACK_ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/LOGO_WHITE.png",
+                    "name": "LOGO_WHITE",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/LOGO_BLACK.png",
+                    "name": "LOGO_BLACK",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/FOG_BLACK_ICON.png",
+                    "name": "FOG_BLACK_ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/CLOUDY_BLACK_ICON.png",
+                    "name": "CLOUDY_BLACK_ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/CLEAR_SKY_NIGHT_BLACK_ICON.png",
+                    "name": "CLEAR_SKY_NIGHT_BLACK_ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/CLEAR_SKY_DAY_BLACK_ICON.png",
+                    "name": "CLEAR_SKY_DAY_BLACK_ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "fonts/BORDA_BOLD_FONT.ttf",
+                    "name": "BORDA_BOLD_FONT_11",
+                    "targetPlatforms": null,
+                    "type": "font"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "diorite"
+        ],
+        "uuid": "93d89edb-91ad-42a4-83a1-76c3b30c68ba",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.0.0"
+}
